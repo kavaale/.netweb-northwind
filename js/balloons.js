@@ -1,46 +1,46 @@
 $(document).ready($(function(){
     
-    $('#birthday-header').complete(function() {
-        pick = Math.floor((Math.random() * 12) + 1);
-        switch(pick) {
-            case 1:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__bounce')
-                break;
-            case 2:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__flash')
-                break;
-            case 3:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__pulse')
-                break;
-            case 4:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__rubberBand')
-                break;
-            case 5:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__shakeX')
-                break;
-            case 6:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__shakeY')
-                break;
-            case 7:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__headShake')
-                break;
-            case 8:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__swing')
-                break;
-            case 9:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__tada')
-                break;
-            case 10:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__wobble')
-                break;
-            case 11:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__jello')
-                break;
-            case 12:
-                $('#birthday-header').removeClass.addClass('animate__animated animate__heartBeat')
-                break;
-        }
-    })
+    
+    pick = Math.floor((Math.random() * 12) + 1);
+    switch(pick) {
+        case 1:
+            $('#birthday-header').addClass('animate__animated animate__bounce')
+            break;
+        case 2:
+            $('#birthday-header').addClass('animate__animated animate__flash')
+            break;
+        case 3:
+            $('#birthday-header').addClass('animate__animated animate__pulse')
+            break;
+        case 4:
+            $('#birthday-header').addClass('animate__animated animate__rubberBand')
+            break;
+        case 5:
+            $('#birthday-header').addClass('animate__animated animate__shakeX')
+            break;
+        case 6:
+            $('#birthday-header').addClass('animate__animated animate__shakeY')
+            break;
+        case 7:
+            $('#birthday-header').addClass('animate__animated animate__headShake')
+            break;
+        case 8:
+            $('#birthday-header').addClass('animate__animated animate__swing')
+            break;
+        case 9:
+            $('#birthday-header').addClass('animate__animated animate__tada')
+            break;
+        case 10:
+            $('#birthday-header').addClass('animate__animated animate__wobble')
+            break;
+        case 11:
+            $('#birthday-header').addClass('animate__animated animate__jello')
+            break;
+        case 12:
+            $('#birthday-header').addClass('animate__animated animate__heartBeat')
+            break;
+    }
+    
     
     $('#birthday').pickadate({ format: 'mmmm, d' });
 
